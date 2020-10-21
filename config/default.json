@@ -1,0 +1,4 @@
+{
+  "port": 5000,
+  "mongoUrl": "mongodb+srv://root:root@cluster0.76lni.azure.mongodb.net/app?retryWrites=true&w=majority"
+}

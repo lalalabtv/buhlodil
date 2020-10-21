@@ -1,0 +1,24 @@
+{
+  "name": "buhlodil",
+  "version": "1.0.0",
+  "description": "Buhlodil server app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "client": "npm run start --prefix webclient",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "author": "Maksim Dmitriev",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.6"
+  }
+}
